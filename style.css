@@ -36,8 +36,17 @@ header img {
 }
 
 table {
-    width: 150px;
-    text-align: left; 
+    text-align: center; 
+    border: 1px solid black;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    width: 50px;
+    text-align: center;
 }
 
 form {
