@@ -1,0 +1,90 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+
+        <title>Roman numbers</title>
+
+    </head>
+
+    <body>
+
+        <header>
+            <img src="header.jpg">
+        </header>
+
+        <section>
+
+            <div class="bodyHeader">Římská čísla</div>
+                <div class="bodySection">
+                    <p>Pomocí tohoto nástroje převedete z desetinných čísel na římská čísla a naopak.<br>
+                    Chcete-li převést více čísel najednou, je třeba je oddělit mezerami.
+                    </p>
+                </div>
+
+                <div class="bodySection">
+                    <form>
+                        <table width="90%" style="text-align:left; border: 2px #000000 solid;">
+                            <tr>
+                                <td style="padding-left:25px;">Převod: 
+                                    <select id="romanConversionType" onChange="romanConversion()">
+                                        <option selected value="r2d">Roman to decimal</option>
+                                        <option value="d2r">Decimal to Roman</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left:25px; padding-right:25px;">
+                                    <textarea id="romanNumbersText" rows="5" cols="100" style="font-family:Arial" onKeyDown="romanConversion()" onKeyUp="romanConversion()"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left:25px;">
+                                    <input name="Reset fields" value="Reset" type="button" onclick="resetFields(this.form);">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left:25px; padding-right:25px;">
+                                    <div id="romanNumbersDiv"></div>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+
+                <div class="bodySection">
+                    <p>Římské číslice, číselný systém ve starém Římě, používá k označení hodnot kombinace písmen z latinské abecedy.<br>
+                    Římské číslice, jak se dnes používají, jsou založeny na sedmi symbolech.
+                    </p>
+                    <table>
+                        <tr><td><b>Symbol</b></td><td><b>Value</b></td></tr>
+                        <tr><td>I</td><td>1</td></tr>
+                        <tr><td>V</td><td>5</td></tr>
+                        <tr><td>X</td><td>10</td></tr>
+                        <tr><td>L</td><td>50</td></tr>
+                        <tr><td>C</td><td>100</td></tr>
+                        <tr><td>D</td><td>500</td></tr>
+                        <tr><td>M</td><td>1000</td></tr>
+                    </table>
+                </div>
+            </div>
+
+        </section>
+
+        
+
+
+    </body>
+
+    <script src="script.js"></script>
+
+
+</html>
+

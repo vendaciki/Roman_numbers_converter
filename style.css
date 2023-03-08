@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: auto;
+    margin: 0;
+    font-family: "Arial", Helvetica, sans-serif;
+    background-image: linear-gradient(-45deg, #d1e6f8 0%, #5ea7cc 100%);
+}
+
+
+header img {
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+}
+
+.bodyHeader {
+    margin: 15px 0px 5px 0px;
+    font-size: x-large;
+    font-weight: bold;
+    text-shadow: 0 0 10px #FFF;
+    color: #573D00;
+}
+
+.bodySection {
+    padding-left: 5px;
+}
+
+section {
+    width: 900px;
+    margin: 0 auto 50px;
+    padding: 10px 0px 5px 0px;
+}
+
+table {
+    width: 150px;
+}
