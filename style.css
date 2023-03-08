@@ -20,20 +20,35 @@ header img {
     margin: 15px 0px 5px 0px;
     font-size: x-large;
     font-weight: bold;
-    text-shadow: 0 0 10px #FFF;
-    color: #573D00;
+    color: #208bc1;
 }
 
 .bodySection {
     padding-left: 5px;
 }
 
-section {
-    width: 900px;
-    margin: 0 auto 50px;
-    padding: 10px 0px 5px 0px;
+.bodySection h3 {
+    margin: 0 10px 10px 0;
+}
+
+.bodySection h4 {
+    margin: 10px 0;
 }
 
 table {
     width: 150px;
+    text-align: left; 
+}
+
+form {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+textarea {
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #B4CC5E;
 }
